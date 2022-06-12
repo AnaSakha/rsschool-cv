@@ -1,3 +1,43 @@
-div {
-color: red;
+bode {
+    margin: 0 auto;
+}
+img{
+    display: block;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.up-nav {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gold;
+}
+a:active{
+    color: gold;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
 }
